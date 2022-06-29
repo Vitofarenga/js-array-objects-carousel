@@ -31,12 +31,13 @@ const images = [
 const content = document.getElementById('container');
 
 images.forEach((element) => {
-    content.innerHTML += `<div class=containerPiccolo>
-    <img src="${element.url}" id= image>
-    <span>${element.title}</span>
+    content.innerHTML += `<div>
+    <img src="${element.url}" class="image">
+    <div class="scritta">
+       <span>${element.title}</span>
+    </div>
     <span>${element.description}</span>
     
     
     </div>`;
 });
-fsdfsdzs

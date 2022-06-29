@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
-#image{
+.image{
     height: 500px;
+}
+.scritta{
+    position: absolute;
+    z-index: 1;
 }
